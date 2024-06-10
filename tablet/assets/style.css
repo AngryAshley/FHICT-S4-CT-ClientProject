@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#map {
+    width: 100vw;
+    height: 100vh;
+}
+#map .red-flag,
+#map .blue-flag {
+    transition: 1s linear;
+}
+#map .red-flag svg,
+#map .blue-flag svg {
+    transform: translateY(-50%);
+}
+
+#map .red-flag svg {
+    fill: #E0738C;
+}
+#map .blue-flag svg {
+    fill: #6DCAED;
+}
+
+#map .leaflet-control-attribution {
+    display: none;
+}
